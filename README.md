@@ -120,17 +120,11 @@ result = agent.invoke({"messages": [{"role": "user", "content": query}]})
 ## 🔧 Dependencies
 
 ### Dependencies (from requirements.txt)
-- `faiss-cpu` - Vector similarity search
-- `langchain` - Core LangChain framework
-- `langchain-community` - Community tools and integrations
-- `langchain-ollama` - Ollama integration
-- `langchain-cloudflare` - Cloudflare Workers AI integration
-- `ollama` - Local LLM server
-- `langgraph` - Agent workflow framework
-- `wikipedia` - Wikipedia integration
 - `python-dotenv` - Environment variable management
-- `pydantic` - Data validation
-- `duckduckgo-search` - Web search capabilities
+- `langchain` - Core LangChain framework
+- `langchain-cloudflare` - Cloudflare Workers AI integration
+- `sentence_transformers` - Text embeddings for semantic search
+- `langgraph` - Agent workflow framework
 
 ## 🌟 Features
 
