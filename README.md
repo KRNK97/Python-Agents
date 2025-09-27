@@ -26,7 +26,6 @@ python-agents/
 ├── langchain_agent.ipynb          # Main Jupyter notebook with agent examples
 ├── basic.ipynb                     # Basic agent implementation examples
 ├── requirements.txt                # Python dependencies
-├── test_requirements.txt           # Test-specific dependencies
 └── README.md                       # This file
 ```
 
@@ -122,19 +121,18 @@ result = agent.invoke({"messages": [{"role": "user", "content": query}]})
 
 ## 🔧 Dependencies
 
-### Core Dependencies
+### Dependencies (from requirements.txt)
+- `faiss-cpu` - Vector similarity search
 - `langchain` - Core LangChain framework
 - `langchain-community` - Community tools and integrations
+- `langchain-ollama` - Ollama integration
 - `langchain-cloudflare` - Cloudflare Workers AI integration
+- `ollama` - Local LLM server
 - `langgraph` - Agent workflow framework
-- `sentence-transformers` - Text embeddings for semantic search
-- `faiss-cpu` - Vector similarity search
-- `python-dotenv` - Environment variable management
-
-### Search and Tools
-- `duckduckgo-search` - Web search capabilities
 - `wikipedia` - Wikipedia integration
+- `python-dotenv` - Environment variable management
 - `pydantic` - Data validation
+- `duckduckgo-search` - Web search capabilities
 
 ## 🌟 Features
 
