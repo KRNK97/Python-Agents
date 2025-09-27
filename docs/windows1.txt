@@ -1,0 +1,9 @@
+Uninstalling Windows from a laptop is a process that requires careful attention to avoid data loss and ensure a smooth transition. Before you begin, make sure to back up all important files and documents, as uninstalling Windows will remove all data from your device.
+
+To start, decide what you want to do after uninstalling Windows. If you plan to install another operating system, such as Linux, prepare a bootable USB drive with the new OS. Insert the bootable USB into your laptop and restart the device. Enter the BIOS or UEFI settings (usually by pressing F2, F12, Delete, or Esc during startup) and set the USB drive as the primary boot device.
+
+Save the changes and restart the laptop. The installation process for the new operating system should begin. During this process, you will be given the option to delete existing Windows partitions. Carefully select and remove the partitions associated with Windows, but be aware that this will erase all data on those partitions.
+
+If you simply want to remove Windows and not install another OS, you can use a bootable tool like GParted to delete all partitions on your hard drive, effectively wiping Windows from your laptop. Afterward, your laptop will not have an operating system installed and will not boot normally until a new OS is installed.
+
+Once the process is complete, your laptop will either be ready for a new operating system or left without one, depending on your choice. Always ensure you have backed up your data and have the necessary installation media ready before uninstalling Windows.

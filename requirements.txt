@@ -1,0 +1,5 @@
+python-dotenv
+langchain
+langchain-cloudflare
+sentence_transformers
+langgraph

@@ -1,0 +1,9 @@
+Installing Windows on a Desktop is a straightforward process, but it requires careful preparation. First, ensure you have a valid Windows license and a USB drive with at least 8GB of storage. Download the Windows Media Creation Tool from Microsoft's official website and use it to create a bootable USB installer.
+
+Before proceeding, back up all important data from your Desktop, as installing Windows may erase existing files. Insert the bootable USB drive into your Desktop and restart the device. Enter the BIOS or UEFI settings (usually by pressing F2, F12, Delete, or Esc during startup) and set the USB drive as the primary boot device.
+
+Save the changes and restart the Desktop. The Windows installation process should begin. Follow the on-screen instructions to select your language, region, and keyboard layout. When prompted, choose "Install Now" and enter your product key if required.
+
+Select the partition where you want to install Windows. You may need to delete existing partitions or format them, but be cautious as this will remove all data on those partitions. Once the installation begins, your Desktop will restart several times.
+
+After installation, follow the setup prompts to create a user account, set your preferences, and connect to Wi-Fi. Finally, install necessary drivers and Windows updates to ensure your Desktop runs smoothly. Your Desktop is now ready to use with a fresh installation of Windows.
