@@ -24,7 +24,6 @@ python-agents/
 │   ├── windows1.txt                # Windows OS documentation
 │   └── windows2.txt                # Windows installation documentation
 ├── langchain_agent.ipynb          # Main Jupyter notebook with agent examples
-├── basic.ipynb                     # Basic agent implementation examples
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
 ```
@@ -72,9 +71,8 @@ python-agents/
    jupyter notebook
    ```
 
-2. **Open the notebooks**
-   - `basic.ipynb` - Basic agent examples and tutorials
-   - `langchain_agent.ipynb` - Advanced agent implementations
+2. **Open the notebook**
+   - `langchain_agent.ipynb` - Complete agent implementation with examples
 
 ### Key Features Demonstrated
 
@@ -145,8 +143,16 @@ result = agent.invoke({"messages": [{"role": "user", "content": query}]})
 
 ## 📖 Documentation
 
-The `docs/` folder contains sample documents that demonstrate the agent's document search and editing capabilities. These files are used in the notebook examples to show how agents can:
+The `docs/` folder contains 6 sample text documents that demonstrate the agent's document search and editing capabilities:
 
+- **climate.txt** - Climate change and environmental topics
+- **python.txt** - Python programming information
+- **sample.txt** - General sample content
+- **travel.txt** - Travel and tourism information
+- **windows1.txt** - Windows operating system basics
+- **windows2.txt** - Windows installation procedures
+
+These files are used in the `langchain_agent.ipynb` notebook to demonstrate how agents can:
 - Search for relevant documents using semantic similarity
 - Extract and modify content from documents
 - Combine multiple tools for complex tasks
